@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# benchmark run outputs
+runs/
+summary.csv
+timeline.jsonl
+events.jsonl
+metrics.raw
+dmon.raw
+monitor.jsonl
+*.jsonl
+!docs/*.jsonl

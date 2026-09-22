@@ -1,0 +1,4 @@
+# Only third-party import in the repo: scripts/gb10/needle_test.py uses the
+# OpenAI client against any OpenAI-compatible endpoint (vLLM).
+# Everything else is stdlib.
+openai>=1.0
